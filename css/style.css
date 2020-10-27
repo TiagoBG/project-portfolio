@@ -1,0 +1,49 @@
+:root {
+    /*colores*/
+    --dark-blue: #002e4b;
+    --mid-blue: #185e8d;
+    --light-blue: hsl(204, 71%, 57%);
+    --dark-black: #17191a;
+    --mid-black: #313233;
+    --gray: #e0e5e9;
+}
+
+body {
+    background-color: var(--dark-black);
+}
+
+.header {
+    height: 600px;
+    background-image: url(../img/beach.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.profile-img {
+    width: 340px;
+    border-radius: 100%;
+    position: relative;
+    top: -150px;
+}
+
+.nav-style li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-style li a {
+    writing-mode: vertical-lr;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--light-blue);
+}
+
+.portfolio-img {
+    height: 300px;
+}
+
+.footer {
+    color: var(--gray);
+    text-align: center;
+}
